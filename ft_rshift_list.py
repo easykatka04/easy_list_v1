@@ -5,7 +5,7 @@ def ft_len(z):
     return x
 
 
-def ft_rev_par_list(num):
+def ft_rshift_list(num):
     i = 1
     a = 0
     while a < ft_len(num) - 1:

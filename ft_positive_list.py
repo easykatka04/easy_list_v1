@@ -6,8 +6,8 @@ def ft_len(z):
 
 
 def ft_positive_list(a):
-    b = list()
+    b = 0
     for i in range(0, ft_len(a)):
         if a[i] > 0:
-            b.append(a[i])
+            b = b + 1
     return b
